@@ -1,4 +1,4 @@
-module github.com/engage-wf/random
+module github.com/engage-wf/plugin-random
 
 go 1.15
 
