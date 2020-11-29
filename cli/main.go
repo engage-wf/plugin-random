@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/engage-wf/random"
+	random "github.com/engage-wf/plugin-random"
 
 	"github.com/engage-wf/core"
 	"github.com/spf13/cobra"
