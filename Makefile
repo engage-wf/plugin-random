@@ -55,7 +55,7 @@ archive-windows_amd64: archive-random-windows_amd64
 archive: archive-linux_amd64 archive-darwin_amd64 archive-windows_amd64
 
 release: archive
-	sha1sum dist/*.tar.gz > dist/$(BINARY_NAME)-${VERSION}.shasums
+	sha1sum -a 256 dist/*.tar.gz > dist/$(BINARY_NAME)-${VERSION}.shasums
 
 ### TEST ####################################################################
 
