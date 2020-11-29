@@ -69,15 +69,3 @@ test: test-random
 
 clean:
 	rm -r bin/* dist/*
-
-### DATABASE ################################################################
-
-db-up:
-	psql < db/up.sql
-
-db-down:
-	psql < db/down.sql
-
-db-seed:
-	psql < db/seed.sql
-
